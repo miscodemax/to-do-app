@@ -51,7 +51,7 @@ const added = () => {
     container.appendChild(El);
     El.appendChild(texte);
     El.appendChild(suppr);
-
+    toDo.value = '';
     const btnsDelete = document.querySelectorAll('.delete');
     const elements = document.querySelectorAll('.element');
 
